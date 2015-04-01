@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\adler32.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\compress.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\crc32.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\deflate.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gzio.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\infback.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\inffast.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\inflate.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\inftrees.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\trees.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uncompr.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zutil.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\crc32.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\deflate.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\inffast.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\inffixed.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\inflate.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\inftrees.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\trees.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\zconf.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\zlib.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\zutil.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c5d70c7d-96e5-46ae-94de-c5b077a7228e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

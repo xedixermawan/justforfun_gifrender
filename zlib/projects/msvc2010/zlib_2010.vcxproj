@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Win_Debug|Win32">
+      <Configuration>Win_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Release|Win32">
+      <Configuration>Win_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Debug_DEF|Win32">
+      <Configuration>Win_Debug_DEF</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Debug_DLL|Win32">
+      <Configuration>Win_Debug_DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Release_DEF|Win32">
+      <Configuration>Win_Release_DEF</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win_Release_DLL|Win32">
+      <Configuration>Win_Release_DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{56ADAFAD-9F28-3C48-BE79-138F621E52CB}</ProjectGuid>
+    <RootNamespace>zlib_2010</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>zlib</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../make/premake_config/propertysheets/zlib - Debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../make/premake_config/propertysheets/zlib - Release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../make/premake_config/propertysheets/zlib - Debug - DEF.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../make/premake_config/propertysheets/zlib - Debug - DLL.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../make/premake_config/propertysheets/zlib - Release - DEF.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="../../make/premake_config/propertysheets/zlib - Release - DLL.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">$(SolutionDir)$(Platform)\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">$(PlatformName)\Win_Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">zlib</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">..\..\lib\msvc2010\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">$(PlatformName)\Win_Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">zlib</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">..\..\lib\msvc2010\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">$(PlatformName)\Win_Debug_DEF\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">zlib_d</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">..\..\lib\msvc2010\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">$(PlatformName)\Win_Debug_DLL\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">zlib_d</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">false</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">..\..\lib\msvc2010\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">$(PlatformName)\Win_Release_DEF\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">zlib</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">..\..\lib\msvc2010\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">$(PlatformName)\Win_Release_DLL\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">zlib</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">false</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">
+    <ClCompile>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)zlib.lib</OutputFile>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">
+    <ClCompile>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)zlib.lib</OutputFile>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">
+    <ClCompile>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)zlib_d.lib</OutputFile>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">
+    <ClCompile>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OutputFile>$(OutDir)zlib_d.dll</OutputFile>
+      <ImportLibrary>..\..\lib\msvc2010\$(Configuration)\zlib_d.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">
+    <ClCompile>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)zlib.lib</OutputFile>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">
+    <ClCompile>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OutputFile>$(OutDir)zlib.dll</OutputFile>
+      <ImportLibrary>..\..\lib\msvc2010\$(Configuration)\zlib.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\crc32.h" />
+    <ClInclude Include="..\..\include\deflate.h" />
+    <ClInclude Include="..\..\include\inffast.h" />
+    <ClInclude Include="..\..\include\inffixed.h" />
+    <ClInclude Include="..\..\include\inflate.h" />
+    <ClInclude Include="..\..\include\inftrees.h" />
+    <ClInclude Include="..\..\include\trees.h" />
+    <ClInclude Include="..\..\include\zconf.h" />
+    <ClInclude Include="..\..\include\zlib.h" />
+    <ClInclude Include="..\..\include\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\adler32.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\compress.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\crc32.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\deflate.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gzio.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\infback.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\inffast.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\inflate.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\inftrees.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\trees.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uncompr.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zutil.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Debug_DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DEF|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Win_Release_DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

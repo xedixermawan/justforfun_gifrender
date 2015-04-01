@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib_2010", "zlib_2010.vcxproj", "{56ADAFAD-9F28-3C48-BE79-138F621E52CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Win_Debug|Win32 = Win_Debug|Win32
+		Win_Release|Win32 = Win_Release|Win32
+		Win_Debug_DEF|Win32 = Win_Debug_DEF|Win32
+		Win_Debug_DLL|Win32 = Win_Debug_DLL|Win32
+		Win_Release_DEF|Win32 = Win_Release_DEF|Win32
+		Win_Release_DLL|Win32 = Win_Release_DLL|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Debug|Win32.ActiveCfg = Win_Debug|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Debug|Win32.Build.0 = Win_Debug|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Release|Win32.ActiveCfg = Win_Release|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Release|Win32.Build.0 = Win_Release|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Debug_DEF|Win32.ActiveCfg = Win_Debug_DEF|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Debug_DEF|Win32.Build.0 = Win_Debug_DEF|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Debug_DLL|Win32.ActiveCfg = Win_Debug_DLL|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Debug_DLL|Win32.Build.0 = Win_Debug_DLL|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Release_DEF|Win32.ActiveCfg = Win_Release_DEF|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Release_DEF|Win32.Build.0 = Win_Release_DEF|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Release_DLL|Win32.ActiveCfg = Win_Release_DLL|Win32
+		{56ADAFAD-9F28-3C48-BE79-138F621E52CB}.Win_Release_DLL|Win32.Build.0 = Win_Release_DLL|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

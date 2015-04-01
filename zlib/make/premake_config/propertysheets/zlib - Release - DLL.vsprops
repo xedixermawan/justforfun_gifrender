@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="zlib - Release - DLL"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		Optimization="2"
+		EnableIntrinsicFunctions="true"
+		WholeProgramOptimization="true"
+		AdditionalIncludeDirectories="..\..\include"
+		PreprocessorDefinitions="ZLIB_AS_DLL;_CRT_SECURE_NO_WARNINGS;_HAS_EXCEPTIONS=0;_WINDLL;_MBCS"
+		MinimalRebuild="false"
+		ExceptionHandling="0"
+		BasicRuntimeChecks="0"
+		RuntimeLibrary="2"
+		EnableFunctionLevelLinking="true"
+		FloatingPointExceptions="false"
+		RuntimeTypeInfo="false"
+		UsePrecompiledHeader="0"
+		PrecompiledHeaderThrough=""
+		WarningLevel="3"
+		WarnAsError="false"
+		DebugInformationFormat="0"
+		CompileAs="2"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		OutputFile="../../../zlib_config/dll/zlib.dll"
+		ModuleDefinitionFile="../../../zlib_config/zlib_RELEASE.def"
+	/>
+	<Tool
+		Name="VCPostBuildEventTool"
+		CommandLine=""
+	/>
+</VisualStudioPropertySheet>

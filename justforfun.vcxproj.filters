@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libnsgif">
+      <UniqueIdentifier>{e1499df4-f3d3-4ebb-a90a-12ccd49e9857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="justforfun_app.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="justforfun_graphicsdriver.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="justforfun_config.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="justforfun_texture.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="justforfun_textureloader.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="justforfun_texturehelper.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="libnsgif.h">
+      <Filter>libnsgif</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>libnsgif</Filter>
+    </ClInclude>
+    <ClInclude Include="justforfun_gifsprite.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="justforfun_app.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="justforfun_graphicsdriver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="justforfun_main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="justforfun_texture.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="justforfun_textureloader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="justforfun_texturehelper.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="justforfun_gifsprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="libnsgif.cpp">
+      <Filter>libnsgif</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

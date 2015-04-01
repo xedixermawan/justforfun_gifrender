@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="zlib - Debug - DLL"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		Optimization="0"
+		AdditionalIncludeDirectories="..\..\include"
+		PreprocessorDefinitions="_DEBUG;_CRT_SECURE_NO_WARNINGS;_HAS_EXCEPTIONS=0;ZLIB_AS_DLL;_WINDLL;_MBCS"
+		MinimalRebuild="true"
+		ExceptionHandling="0"
+		BasicRuntimeChecks="3"
+		RuntimeLibrary="3"
+		FloatingPointExceptions="false"
+		RuntimeTypeInfo="true"
+		UsePrecompiledHeader="0"
+		PrecompiledHeaderThrough=""
+		WarningLevel="3"
+		WarnAsError="false"
+		DebugInformationFormat="4"
+		CompileAs="2"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		OutputFile="../../../zlib_config/dll/zlib_d.dll"
+		ModuleDefinitionFile="../../../zlib_config/zlib_DEBUG.def"
+	/>
+	<Tool
+		Name="VCPostBuildEventTool"
+		CommandLine=""
+	/>
+</VisualStudioPropertySheet>
